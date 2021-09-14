@@ -6,6 +6,11 @@
   left:100%;
   top:0;
 }
+.dropdown-menu ul:last-child{
+  position:absolute;
+  left:-100%;
+  top:0;
+}
 .dropdown-submenu{
   position: relative;
 }
