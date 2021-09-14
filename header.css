@@ -1,0 +1,19 @@
+.navbar-nav li:hover>ul.dropdown-menu{
+  display:block;
+}
+.dropdown-menu ul {
+  position:absolute;
+  left:100%;
+  top:0;
+}
+.dropdown-submenu{
+  position: relative;
+}
+.dropdown-submenu > .dropdown-submenu{
+  top: 0;
+  margin-top: -5px;
+  left: 100%;
+}
+.dropdown-menu li a:hover::after{
+  transform: rotate(-90deg);
+}
